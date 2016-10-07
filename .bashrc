@@ -91,7 +91,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -123,8 +122,8 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 
 #  git related stuff
-. ~/.scripts/git-completion.bash
-. ~/.scripts/git-prompt.sh
+. ~/.bash/git-completion.bash
+. ~/.bash/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1 " (%s)")\[\033[00m\]\$ '
 
