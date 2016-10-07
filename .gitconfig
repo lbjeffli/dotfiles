@@ -1,0 +1,8 @@
+[user]
+	name = Jeff Li
+	email = jeff.li@mackenzieinvestments.com
+	signingkey = 381DF243
+[commit]
+	gpgsign = true
+[push]
+	default = matching
