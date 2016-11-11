@@ -1,10 +1,10 @@
 [user]
-	name = Jeff Li
-	email = jeff.li@mackenzieinvestments.com
-	signingkey = 381DF243
+    name = Jeff Li
+    email = jeff.li@mackenzieinvestments.com
+    signingkey = 381DF243
 [commit]
-	gpgsign = true
+    gpgsign = true
 [push]
-	default = matching
+    default = matching
 [core]
-	editor = vim
+    editor = vim

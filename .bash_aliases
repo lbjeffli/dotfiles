@@ -3,7 +3,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # cd .. 
 function cd_up() {
-	  cd $(printf "%0.s../" $(seq 1 $1 ));
+      cd $(printf "%0.s../" $(seq 1 $1 ));
   }
 alias up='cd_up'
 
