@@ -11,7 +11,7 @@ Plugin 'gmarik/vundle'
 " The bundles you install will be listed here
 
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plugin'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
