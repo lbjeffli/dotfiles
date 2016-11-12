@@ -2,9 +2,18 @@
     name = Jeff Li
     email = jeff.li@mackenzieinvestments.com
     signingkey = 381DF243
+
 [commit]
     gpgsign = true
+
 [push]
     default = matching
+
 [core]
     editor = vim
+
+[alias]
+    st = status
+    br = branc
+    ci = commit
+    co = checkout
