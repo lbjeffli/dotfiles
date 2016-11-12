@@ -129,3 +129,6 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\
 
 # docker-machine autocomplete
 . ~/.bash/docker-machine-completion.sh
+
+# secrets exported as env variables
+. ~/.secrets
