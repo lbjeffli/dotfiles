@@ -132,3 +132,6 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\
 
 # secrets exported as env variables
 . ~/.secrets
+
+# auto complete cycle through
+bind TAB:menu-complete
