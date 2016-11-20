@@ -4,9 +4,8 @@ default configurations
 ## installation
 1. install and dotfiles using the `install-dotfiles.sh`
 
-        $ curl https://gist.githubusercontent.com/lbjeffli/<???>/raw/<???>/install-dotfiles.sh | /bin/bash
+        $ curl https://gist.githubusercontent.com/lbjeffli/fb9f830e4b9227dbea8267c095096181/raw | /bin/bash
 
-    note: fill in the appropriate `<???>s`
 2. reload `.bashrc`
 
         $ source ~/.bashrc
