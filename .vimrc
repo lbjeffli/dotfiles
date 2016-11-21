@@ -15,7 +15,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Yggdroot/indentLine'
 
 call vundle#end()
-set autoindent
 filetype plugin indent on
 
 " indentLine set up
@@ -38,6 +37,7 @@ set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 " The rest of your config follows here
 
+autocmd BufRead,BufWritePre *.sh setl ts=4 sts=4 sw=4 expandtab autoindent
 autocmd FileType yaml setl ts=2 sts=2 sw=2 expandtab smartindent
 
 augroup vimrc_autocmds
