@@ -1,0 +1,12 @@
+#cloud-config 
+# for DO
+users:
+  - name: jeffli
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4VhIAjIywNbs++xMsy2S+M5XkuHyAs+fFYkfGV1gnWfwLAYwHmw+mcExOLV/YUs1ZECKS3BF5qmY2tu2utCpCyM92QWhsDD+sBLNYk4IUHR+dlLyiz8obO3c+h5NeiBTV65wEC9mUl6FTbynRB71UxRWIlJDYd4kkTQOHhYZj/cWFQmYaBgQAd4rowWw2IuR0+tfxBh2Wy8Z5TSvLCvmr6+eIJHWsUn47MI9Rt03AnXgffeWr3FW4M5KaO+JK0J5Ixn6V6MOytfQ2LBO4z5IwJuLg20flQ4ZyFBLe3fxJltrvB3s7lDrNnXsVuVHqyKbAQCW+Ae6LJUw1D7qzLIiJ
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+IkYU8NC5kmC4GHn+6xz3MYl1x00h/uuJzwbqQUMsfuW+5cVq7r82x/Te37aaGKtRCGabgi44dpUROOWIDJfLeVejr0X4WlDBrFKjMF0Uuqima4bdf9m1zu/xiQ7czJUGVX/GxamKz5DG0qdmqIaVNFL2q7kZpyAhXxx2VjUY1ID4h5aqNXPnrSjgKBbJ0AD5WbtkeGeoLK9ZAhVj+mYLOw6RNSYsdzLw5yr18Kj4nrbeA5wV2GraXNtToWeCWpP0gSrhahIhXqEuKT93nH0D3TeZjYB9b5LB6Zv021vIZ+cMEbcqtXNB819fLj8JU2r/qRTW68NojKy7NAQW9uab
+    groups: sudo
+    shell: /bin/bash
+runcmd:
+    - sed -i -e '/^PasswordAuthentication/s/^.*$/PasswordAuthentication no/' /etc/ssh/sshd_config
+
