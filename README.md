@@ -17,6 +17,6 @@ default configurations
 
 4. install other personal stuff like gpg and ssh keys
 
-Step 2. and onward can be carried out by running 
+Note: step 2 and 3 can be carried out by running 
     
     $ bash .sciprt/init-install.sh
