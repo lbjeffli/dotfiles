@@ -139,5 +139,5 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\
 # auto complete cycle through
 bind TAB:menu-complete
 
-# added by Miniconda2 4.2.12 installer
-export PATH="/opt/miniconda2/bin:$PATH"
+# added by Anaconda2 4.3.0 installer
+export PATH="/opt/anaconda2/bin:$PATH"
