@@ -18,3 +18,4 @@
     br = branc
     ci = commit
     co = checkout
+    pt = !git tag -l | xargs git tag -d && git fetch -t  # prune local tags that aren't on remote
